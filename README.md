@@ -31,3 +31,5 @@ print(parse(string))
 
 - [x] deserialization
 - [ ] seralization
+- [ ] ignore comments
+- [ ] add comments 😭
