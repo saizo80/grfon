@@ -24,7 +24,7 @@ string = "{
     another array: [ omg; another; array ]
 }"
 import_code("grfon.src")
-print(parse(string))
+print(loads(string))
 ```
 
 ## todo

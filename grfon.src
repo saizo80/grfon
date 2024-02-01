@@ -1,6 +1,6 @@
-parse = function(data)
+loads = function(data)
     parser = new Parser
-    return parser.parse(data)
+    return parser.loads(data)
 end function
 
 Parser = {}
@@ -14,7 +14,7 @@ Parser.init = function(content)
     self._index = 0
 end function
 
-Parser.parse = function(content=null)
+Parser.loads = function(content=null)
     if content != null then self.init content
     return self._parseContent
 end function
